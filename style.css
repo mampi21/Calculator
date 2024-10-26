@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(rgb(129, 129, 253),rgb(245, 245, 252),blue);
+    overflow: hidden;
+}
+
+fieldset{
+    width: 247px;
+    height: 298px;
+    margin: 57px 2px 5px -1px;
+    background-color: grey;
+    color: rgb(204, 202, 202);
+    display: flex;
+    position: relative;
+    top: 151px;
+    left: 518px;
+    box-shadow: 1px 1px 5px black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: 1px solid black;
+    padding: 0px 0px 0px 2px;
+}
+    
+form{
+    width: 0px;
+    height: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    width: 183px;
+    height: 35px;
+    margin: -228px -310px -16px 102px;
+    padding: 22px 197px 27px 14px;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 0px 0px 4px black;
+    position: relative;
+    left: 185px;
+    color: black;
+    font-size: 29px;
+    white-space: nowrap;
+    overflow: hidden;
+    
+}
+
+.num{
+    width: 102px;
+    height: 29px;
+    margin: -64px 6px 2px 3px;
+    background-color: rgb(253, 229, 229);
+    color: rgb(20, 20, 20);
+    position: relative;
+    top: -20px;
+    left: 288px;
+    box-shadow: 1px 1px 5px black;
+    border: 1px solid black;
+    padding: 11px 19px 23px 13px;
+    display: flex;
+    font-weight: bold;
+}
+
+.num1{
+    width: 102px;
+    height: 29px;
+    margin: -64px 6px 2px 3px;
+    background-color: rgb(253, 229, 229);
+    color: rgb(20, 20, 20);
+    position: relative;
+    top: 29px;
+    left: 86px;
+    box-shadow: 1px 1px 5px black;
+    border: 1px solid black;
+    padding: 11px 19px 23px 13px;
+    display: flex;
+    font-weight: bold;
+}
+
+.num2{
+    width: 102px;
+    height: 29px;
+    margin: 1px 6px -2px 1px;
+    background-color: rgb(253, 229, 229);
+    color: rgb(20, 20, 20);
+    position: relative;
+    top: 44px;
+    border: 1px solid black;
+    padding: 11px 19px 23px 13px;
+    display: flex;
+    left: -110px;
+    box-shadow: 1px 1px 5px black;
+    font-weight: bold;
+    
+}
+
+.num3{
+    width: 102px;
+    height: 29px;
+    margin: 2px 6px 3px 1px;
+    background-color: rgb(253, 229, 229);
+    color: rgb(20, 20, 20);
+    position: relative;
+    top: 95px;
+    left: -302px;
+    box-shadow: 1px 1px 5px black;
+    border: 1px solid black;
+    padding: 11px 19px 23px 13px;
+    display: flex;
+    font-weight: bold;
+
+}
+
+.num-math{
+    width: 102px;
+    height: 29px;
+    margin: -65px 6px 1px 3px;
+    background-color: rgb(24, 23, 23);
+    color: rgb(248, 245, 245);
+    position: relative;
+    top: -20px;
+    left: 288px;
+    box-shadow: 1px 1px 5px black;
+    border: 1px solid black;
+    padding: 11px 19px 23px 13px;
+    font-weight: bold;
+}
+
+.num-math1{
+    width: 102px;
+    height: 29px;
+    margin: -64px 6px 2px 3px;
+    background-color: rgb(24, 23, 23);
+    color: rgb(248, 245, 245);
+    position: relative;
+    top: 29px;
+    left: 87px;
+    box-shadow: 1px 1px 5px black;
+    border: 1px solid black;
+    padding: 11px 19px 23px 13px;
+    font-weight: bold;
+}
+
+.num-math2{
+    width: 102px;
+    height: 29px;
+    margin: 1px 6px -2px 1px;
+    background-color: rgb(24, 23, 23);
+    color: rgb(248, 245, 245);
+    position: relative;
+    top: 44px;
+    border: 1px solid black;
+    padding: 11px 19px 23px 13px;
+    left: -105px;
+    box-shadow: 1px 1px 5px black;
+    font-weight: bold;
+}
+
+.num-math3{
+    width: 102px;
+    height: 29px;
+    margin: 2px 6px 3px 1px;
+    background-color: rgb(24, 23, 23);
+    color: rgb(248, 245, 245);
+    position: relative;
+    top: 95px;
+    left: -299px;
+    box-shadow: 1px 1px 5px black;
+    border: 1px solid black;
+    padding: 11px 19px 23px 13px;
+    font-weight: bold;
+}
+
+#C{
+    background-color: red;
+}
+#C:hover{
+    background-color: orange;
+}
+
+
+#equal{
+    background-color: rgb(24, 23, 23);
+    color: rgb(248, 245, 245);
+}
+#equal:hover{
+    background-color: orange;
+}
+
+input:hover{
+    background-color: orange;
+
+}

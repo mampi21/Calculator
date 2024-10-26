@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <fieldset>
+        <form>
+            <div class="container" id="display"></div>
+            <br>
+            <input type="button" value="7" class="num" id="7" onclick="display.textContent += 7">
+            <input type="button" value="8" class="num" id="8" onclick="display.textContent += 8">
+            <input type="button" value="9" class="num" id="9" onclick="display.textContent += 9">
+            <input type="button" value="+" class="num-math" id="+" onclick="display.textContent += '+'">
+            <br>
+            <input type="button" value="4" class="num1" id="4" onclick="display.textContent += 4">
+            <input type="button" value="5" class="num1" id="5" onclick="display.textContent += 5">
+            <input type="button" value="6" class="num1" id="6" onclick="display.textContent += 6">
+            <input type="button" value="-" class="num-math1" id="-" onclick="display.textContent += '-'">
+            <br>
+            <input type="button" value="1" class="num2" id="1" onclick="display.textContent += 1">
+            <input type="button" value="2" class="num2" id="2" onclick="display.textContent += 2">
+            <input type="button" value="3" class="num2" id="3" onclick="display.textContent += 3">
+            <input type="button" value="x" class="num-math2" id="x" onclick="display.textContent += '*'">
+            <br>
+            <input type="button" value="C" class="num3" id="C" onclick="display.innerHTML = '' ">
+            <input type="button" value="0" class="num3" id="0" onclick="display.textContent += 0">
+            <input type="button" value="=" class="num3" id="equal" onclick="display.textContent = eval(display.textContent)">
+            <input type="button" value="/" class="num-math3" id="/" onclick="display.textContent += '/'">
+        </form>
+    </fieldset>
+</body>
+</html>
